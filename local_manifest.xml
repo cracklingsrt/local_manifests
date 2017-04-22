@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device Tree -->
+  <project path="device/wileyfox/crackling" name="cracklingsrt/android_device_wileyfox_crackling" revision="cm-14.1" />
+  <!-- Kernel Source -->
+  <project path="kernel/wileyfox/crackling" name="cracklingsrt/android_kernel_wileyfox_crackling" revision="CesiumKernel-WiP" />
+  <!-- Vendor Blobs -->
+  <project path="vendor/wileyfox" name="cracklingsrt/proprietary_vendor_wileyfox" revision="cm-14.1" />
+
+</manifest>

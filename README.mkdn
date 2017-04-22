@@ -1,0 +1,20 @@
+Getting Started
+---------------
+
+To initialize your local repository using the LineageOS repo-s, use a command like this:
+
+    repo init -u git://github.com/LineageOS/android.git -b cm-14.1
+    mkdir -p .repo/local_manifests
+    wget https://github.com/cracklingsrt/local_manifests/raw/cm-14.1/crackling.xml -O .repo/local_manifests/crackling.xml
+
+Then to sync up:
+
+    repo sync -j24
+
+To build:
+
+    . build/envsetup.sh
+    lunch lineage_crackling-userdebug
+    mka bacon
+
+Please see the [LineageOS Wiki](http://wiki.lineageos.org/) for building instructions.
